@@ -16,15 +16,14 @@
  */
 package org.apache.sling.hc.api.execution;
 
-import org.apache.sling.hc.api.HealthCheck;
-import org.apache.sling.hc.util.HealthCheckFilter;
-import org.osgi.annotation.versioning.ProviderType;
-
 import java.util.Arrays;
+
+import org.osgi.annotation.versioning.ProviderType;
 
 /**
  * Parameter class to pass a set of tags and names to the filter.
  */
+@Deprecated
 @ProviderType
 public final class HealthCheckSelector {
 

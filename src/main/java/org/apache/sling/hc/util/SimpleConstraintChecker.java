@@ -24,6 +24,7 @@ import org.apache.sling.hc.api.ResultLog;
  *  like &lt; N, &gt; N, between two values etc.
  *  See the SimpleConstraintCheckerTest for examples.
  */
+@Deprecated
 public class SimpleConstraintChecker {
 
     public static final String CONTAINS = "contains";

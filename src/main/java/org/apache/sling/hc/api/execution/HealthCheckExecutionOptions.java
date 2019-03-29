@@ -19,6 +19,7 @@ package org.apache.sling.hc.api.execution;
 
 
 /** Options for behavior of health check execution. */
+@Deprecated
 public class HealthCheckExecutionOptions {
 
     private boolean forceInstantExecution = false;

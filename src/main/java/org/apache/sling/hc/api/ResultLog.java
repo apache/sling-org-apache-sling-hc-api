@@ -26,6 +26,7 @@ import org.apache.sling.hc.api.Result.Status;
 
 /** The log of a Result, allows for providing multiple lines
  *  of information which are aggregated as a single Result. */
+@Deprecated
 public class ResultLog implements Iterable<ResultLog.Entry> {
 
     private List<Entry> entries = new LinkedList<Entry>();

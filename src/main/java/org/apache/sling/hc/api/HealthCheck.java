@@ -19,18 +19,17 @@ package org.apache.sling.hc.api;
 
 import org.osgi.annotation.versioning.ConsumerType;
 
-/**
- * Health Check services can be executed and
- * return an execution {@link Result}.
+/** Health Check services can be executed and return an execution {@link Result}.
  *
- * Clients should not look up health checks directly but
- * rather use the {@link org.apache.sling.hc.api.execution.HealthCheckExecutor}
+ * Clients should not look up health checks directly but rather use the {@link org.apache.sling.hc.api.execution.HealthCheckExecutor}
  * service and executed checks based on tags.
  *
- * If the {@link #MBEAN_NAME} service registration property is set,
- * the health check is registered as an mbean and can be invoked
- * by getting the MBean from the JMX registry.
- */
+ * If the {@link #MBEAN_NAME} service registration property is set, the health check is registered as an mbean and can be invoked by getting
+ * the MBean from the JMX registry.
+ * 
+ * @deprecated Use Apache Felix Health Checks now, see {@link https://sling.apache.org/documentation/bundles/sling-health-check-tool.html}
+ *             for migration guide. */
+@Deprecated
 @ConsumerType
 public interface HealthCheck {
 

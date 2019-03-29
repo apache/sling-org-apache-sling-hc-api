@@ -28,6 +28,7 @@ import org.osgi.annotation.versioning.ProviderType;
  * implementing the interface {@link HealthCheck}.
  *
  */
+@Deprecated
 @ProviderType
 public interface HealthCheckExecutor {
 

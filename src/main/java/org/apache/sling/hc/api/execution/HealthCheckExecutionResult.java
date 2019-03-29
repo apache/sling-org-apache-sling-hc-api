@@ -30,6 +30,7 @@ import org.osgi.annotation.versioning.ProviderType;
  * If the execution of the health check timed out, the method
  *
  */
+@Deprecated
 @ProviderType
 public interface HealthCheckExecutionResult {
 

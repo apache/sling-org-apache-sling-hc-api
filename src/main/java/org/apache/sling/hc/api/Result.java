@@ -20,6 +20,7 @@ package org.apache.sling.hc.api;
 import java.util.Iterator;
 
 /** The result of executing a {@link HealthCheck} */
+@Deprecated
 public class Result implements Iterable <ResultLog.Entry> {
 
     protected final ResultLog resultLog;

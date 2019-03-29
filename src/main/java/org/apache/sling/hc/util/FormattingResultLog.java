@@ -26,6 +26,7 @@ import org.osgi.annotation.versioning.ProviderType;
 import org.slf4j.helpers.MessageFormatter;
 
 /** Utility that provides a logging-like facade on a ResultLog */
+@Deprecated
 @ProviderType
 public class FormattingResultLog extends ResultLog {
     

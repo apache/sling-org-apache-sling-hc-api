@@ -30,6 +30,7 @@ import org.osgi.framework.ServiceReference;
  * This class helps retrieving meta data information about a health check service.
  * @since 1.1
  */
+@Deprecated
 @ProviderType
 public class HealthCheckMetadata {
 

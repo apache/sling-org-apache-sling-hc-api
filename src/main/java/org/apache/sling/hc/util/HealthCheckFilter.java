@@ -17,6 +17,9 @@
  */
 package org.apache.sling.hc.util;
 
+import static org.apache.sling.hc.api.execution.HealthCheckSelector.empty;
+import static org.apache.sling.hc.api.execution.HealthCheckSelector.tags;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -33,9 +36,6 @@ import org.osgi.framework.ServiceReference;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static org.apache.sling.hc.api.execution.HealthCheckSelector.tags;
-import static org.apache.sling.hc.api.execution.HealthCheckSelector.empty;
-
 /**
  * Select from available {@link HealthCheck} services.
  * Once this filter object and the returned health check services are no longer
@@ -45,6 +45,7 @@ import static org.apache.sling.hc.api.execution.HealthCheckSelector.empty;
  * This class is not thread safe and instances shouldn't be used concurrently
  * from different threads.
  */
+@Deprecated
 @ProviderType
 public class HealthCheckFilter {
 
