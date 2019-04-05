@@ -29,7 +29,7 @@
     <groupId>org.apache.sling</groupId>
     <artifactId>org.apache.sling.hc.api</artifactId>
     <packaging>bundle</packaging>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.4</version>
 
     <name>Apache Sling Health Check API</name>
     <inceptionYear>2013</inceptionYear>
@@ -42,7 +42,7 @@
         <connection>scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-hc-api.git</connection>
         <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/sling-org-apache-sling-hc-api.git</developerConnection>
         <url>https://gitbox.apache.org/repos/asf?p=sling-org-apache-sling-hc-api.git</url>
-      <tag>HEAD</tag>
+      <tag>org.apache.sling.hc.api-1.0.4</tag>
   </scm>
 
     <build>
