@@ -1,0 +1,7 @@
+github:
+  description: "Apache Sling Health Check API (deprecated)"
+  homepage: "https://sling.apache.org/"
+  labels:
+    - sling
+    - java
+    - deprecated
